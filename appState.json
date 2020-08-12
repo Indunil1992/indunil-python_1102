@@ -1,0 +1,116 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "0324f8bd-0371-433a-85ff-425e7c7a118e": {
+        "id": "0324f8bd-0371-433a-85ff-425e7c7a118e",
+        "parent": null,
+        "name": "indunil-python_1102.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "indunil-python_1102.py",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "python3.8",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "indunilPython1102"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1induu1102indunilqatstany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "0324f8bd-0371-433a-85ff-425e7c7a118e"
+    ],
+    "currentFileId": "0324f8bd-0371-433a-85ff-425e7c7a118e",
+    "resources": {
+      "apigusEast1induu1102indunilqatstany": {
+        "name": "apigusEast1induu1102indunilqatstany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiType": 1,
+          "apiMode": 0,
+          "apiName": "induu-11.02",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "indunil/qa/tst",
+          "resourcePath": "/indunil/qa/tst",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "Test",
+          "mode": 0
+        }
+      },
+      "s3induS312": {
+        "name": "s3induS312",
+        "type": "S3",
+        "config": {
+          "mode": 0,
+          "bucket": {
+            "region": "us-east-1",
+            "name": "indu-s3-12"
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "boto3": {
+          "name": "boto3",
+          "language": "python",
+          "version": "1.12.27",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.1.5",
+    "projectName": "indunil-python_1102",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1597210409324
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "indunil-python_1102",
+      "url": "https://github.com/Indunil1992/indunil-python_1102"
+    }
+  }
+}
